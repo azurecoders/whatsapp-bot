@@ -14,8 +14,12 @@ let globalPage = null;
 let isBrowserInitializing = false;
 
 const app = express();
-const PORT = 3010;
+const PORT = 3020;
 const ADMIN_PASS = "9832";
+
+// ==========================
+// MESSAGES
+// ==========================
 const RENEWAL_MESSAGE = `Assalam-o-Alaikum, Dear Member,
 
 Your subscription to “Freepik Premium by Mubashir Awan” is about to expire. To continue accessing our files, please renew your subscription.
@@ -57,56 +61,65 @@ Please contact Admin Mubashir Awan to complete your registration.
 
 Thank you for your interest in our community.`;
 
+// ==========================
+// EXPRESS SETUP
+// ==========================
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// point to src/public
 app.use(express.static(path.join(__dirname, "public")));
-
 app.use(express.json());
 
-/**
- * Initialize global browser and create a page
- */
+// ==========================
+// GLOBAL BROWSER INITIALIZATION
+// ==========================
 async function initGlobalBrowser() {
   if (isBrowserInitializing) {
-    // Wait for initialization to complete
     while (isBrowserInitializing) {
       await new Promise((resolve) => setTimeout(resolve, 100));
     }
     return;
   }
 
-  if (globalBrowser && globalPage) {
-    return; // Already initialized
-  }
+  if (globalBrowser && globalPage) return;
 
   try {
     isBrowserInitializing = true;
     console.log("🔄 Initializing global browser...");
 
     globalBrowser = await puppeteer.launch({
-      headless: false,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
-      devtools: false,
-      userDataDir: "../my-user-data",
+      headless: true,
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-blink-features=AutomationControlled",
+        "--disable-accelerated-2d-canvas",
+        "--no-zygote",
+        "--single-process",
+        "--disable-gpu",
+        "--window-size=1280,800",
+      ],
     });
 
     globalPage = await globalBrowser.newPage();
 
-    // Set up request interception once
-    // await globalPage.setRequestInterception(true);
+    await globalPage.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
+        "AppleWebKit/537.36 (KHTML, like Gecko) " +
+        "Chrome/118.0.5993.88 Safari/537.36"
+    );
 
-    // Navigate to a placeholder page initially
-    // const url = "https://www.freepik.com/"
-    // await globalPage.goto(url, { waitUntil: "networkidle2" });
-    // await globalPage.goto("about:blank")
+    await globalPage.setExtraHTTPHeaders({
+      "Accept-Language": "en-US,en;q=0.9",
+    });
+
+    await globalPage.evaluateOnNewDocument(() => {
+      Object.defineProperty(navigator, "webdriver", { get: () => undefined });
+    });
+
     const url = "https://www.freepik.com/";
     console.log(`🌐 Opening Freepik homepage: ${url}`);
-    await globalPage.goto(url, {
-      waitUntil: "networkidle2",
-      timeout: 30000,
-    });
+    await globalPage.goto(url, { waitUntil: "networkidle2", timeout: 30000 });
 
     console.log("✅ Global browser initialized successfully");
   } catch (error) {
@@ -118,9 +131,9 @@ async function initGlobalBrowser() {
   }
 }
 
-/**
- * Ensure browser is available and healthy
- */
+// ==========================
+// BROWSER HEALTH CHECK
+// ==========================
 async function ensureBrowserHealth() {
   try {
     if (!globalBrowser || !globalPage) {
@@ -128,9 +141,7 @@ async function ensureBrowserHealth() {
       return;
     }
 
-    // Check if browser is still connected
     if (globalBrowser.isConnected()) {
-      // Try to interact with the page to ensure it's responsive
       await globalPage.evaluate(() => document.readyState);
     } else {
       throw new Error("Browser disconnected");
@@ -143,18 +154,16 @@ async function ensureBrowserHealth() {
   }
 }
 
-/**
- * Navigate to URL using global page
- */
+// ==========================
+// URL NAVIGATION
+// ==========================
 async function navigateToUrl(url) {
   await ensureBrowserHealth();
-
   try {
     console.log(`🔄 Navigating to: ${url}`);
-    await globalPage.goto(url, {
-      waitUntil: "networkidle2",
-      timeout: 30000,
-    });
+    await globalPage.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+    await globalPage.setViewport({ width: 1280, height: 800 });
+    await globalPage.waitForTimeout(3000);
     return true;
   } catch (error) {
     console.error("❌ Navigation error:", error);
@@ -162,29 +171,25 @@ async function navigateToUrl(url) {
   }
 }
 
-/**
- * Enhanced getUrl function using global browser
- */
+// ==========================
+// FIXED getUrl FUNCTION (HEADLESS SAFE)
+// ==========================
 async function getUrl(url) {
   await ensureBrowserHealth();
 
   try {
-    // Navigate to the URL
-    const navigationSuccess = await navigateToUrl(url);
-    if (!navigationSuccess) {
-      throw new Error("Failed to navigate to URL");
-    }
+    const success = await navigateToUrl(url);
+    if (!success) throw new Error("Failed to navigate");
+
     await globalPage.setRequestInterception(true);
-    // Set up download URL detection
+
     const urlPromise = new Promise((resolve, reject) => {
       const timeout = setTimeout(() => {
         reject(new Error("Timeout: Download URL not found within 30 seconds"));
       }, 30000);
 
-      const requestHandler = async (req) => {
+      const handler = async (req) => {
         const reqUrl = req.url();
-        console.log("Request URL:", reqUrl);
-
         if (
           reqUrl.includes("downloadscdn5.freepik.com") ||
           reqUrl.includes("downloadscdn6.freepik.com") ||
@@ -192,427 +197,240 @@ async function getUrl(url) {
         ) {
           console.log("✅ Found Download URL:", reqUrl);
           clearTimeout(timeout);
-          globalPage.off("request", requestHandler); // Remove listener
+          globalPage.off("request", handler);
           resolve(reqUrl);
-          return;
-        }
-        req.continue();
+        } else req.continue();
       };
 
-      globalPage.on("request", requestHandler);
+      globalPage.on("request", handler);
     });
 
-    // Wait for download button and click it
-    await globalPage.waitForSelector("button[data-cy='download-button']", {
-      visible: true,
-      timeout: 10000,
-    });
-    await globalPage.click("button[data-cy='download-button']");
+    // Close cookie popup if any
+    try {
+      await globalPage.click("button[aria-label='Accept all']", { timeout: 5000 });
+      console.log("🍪 Cookie popup closed");
+    } catch {}
+
+    // Wait and click the download button
+    const button = await globalPage.waitForSelector(
+      "button[data-cy='download-button'], a[download], button[data-testid='download-button']",
+      { visible: true, timeout: 30000 }
+    );
+    await button.click();
     console.log("⬇️ Download button clicked...");
 
     const foundUrl = await urlPromise;
-    console.log("Finally found URL:", foundUrl);
-    globalPage.setRequestInterception(false);
+    await globalPage.setRequestInterception(false);
     return foundUrl;
   } catch (err) {
     console.error("❌ Error in getUrl:", err);
-    globalPage.setRequestInterception(false);
-    return;
+    await globalPage.screenshot({ path: "debug.png", fullPage: true });
+    await globalPage.setRequestInterception(false);
+    return null;
   }
 }
 
-/**
- * Check user subscription and daily request limits
- */
+// ==========================
+// SUBSCRIPTION CHECKING
+// ==========================
 async function checkSubscription(wId) {
   try {
-    const startOfToday = new Date();
-    startOfToday.setHours(0, 0, 0, 0);
-    const startOfTomorrow = new Date(startOfToday);
-    startOfTomorrow.setDate(startOfTomorrow.getDate() + 1);
+    const start = new Date();
+    start.setHours(0, 0, 0, 0);
+    const end = new Date(start);
+    end.setDate(end.getDate() + 1);
 
     const user = await prisma.user.findFirst({
       where: { wId },
       include: {
         subscription: true,
-        Request: {
-          where: {
-            date: {
-              gte: startOfToday,
-              lt: startOfTomorrow,
-            },
-          },
-        },
+        Request: { where: { date: { gte: start, lt: end } } },
       },
     });
 
-    if (!user) {
-      return {
-        valid: false,
-        reason: "User not found",
-        userId: null,
-        requestsToday: 0,
-        limit: 0,
-      };
-    }
+    if (!user)
+      return { valid: false, reason: "User not found", userId: null, requestsToday: 0, limit: 0 };
 
-    // Check if user has an active subscription and it hasn't expired
-    if (!user.subscription) {
-      return {
-        valid: false,
-        reason: "No active subscription",
-        userId: user.id,
-        requestsToday: user.Request.length,
-        limit: 0,
-      };
-    }
+    if (!user.subscription)
+      return { valid: false, reason: "No active subscription", userId: user.id, requestsToday: user.Request.length, limit: 0 };
 
-    // Check if subscription has expired
-    if (user.subscription.expiresAt < new Date()) {
-      return {
-        valid: false,
-        reason: "Subscription expired",
-        userId: user.id,
-        requestsToday: user.Request.length,
-        limit: 0,
-      };
-    }
+    if (user.subscription.expiresAt < new Date())
+      return { valid: false, reason: "Subscription expired", userId: user.id, requestsToday: user.Request.length, limit: 0 };
 
-    const activeSubscription = user.subscription.plan;
-    console.log("plan", activeSubscription);
-
+    const plan = user.subscription.plan;
     const requestsToday = user.Request.length;
-    console.log("length", requestsToday); // Fixed syntax error
+    const limits = { BASIC: 10, STANDARD: 20, PREMIUM: 30 };
+    const limit = limits[plan] || 0;
 
-    // Set daily limits based on subscription plan
-    let dailyLimit;
-    switch (activeSubscription) {
-      case "BASIC":
-        dailyLimit = 10;
-        break;
-      case "STANDARD":
-        dailyLimit = 20;
-        break;
-      case "PREMIUM":
-        dailyLimit = 30;
-        break;
-      default:
-        dailyLimit = 0; // fallback
-    }
+    if (requestsToday >= limit)
+      return { valid: false, reason: "Daily limit exceeded", userId: user.id, requestsToday, limit };
 
-    // Check if user has exceeded daily limit
-    if (dailyLimit > 0 && requestsToday >= dailyLimit) {
-      return {
-        valid: false,
-        reason: "Daily limit exceeded",
-        userId: user.id,
-        requestsToday,
-        limit: dailyLimit,
-      };
-    }
-
-    return {
-      valid: true,
-      reason: "Valid subscription",
-      userId: user.id,
-      requestsToday,
-      limit: dailyLimit,
-      subscription: activeSubscription,
-    };
-  } catch (error) {
-    console.error("❌ Error checking subscription:", error);
-    return {
-      valid: false,
-      reason: "Database error",
-      userId: null,
-      requestsToday: 0,
-      limit: 0,
-    };
+    return { valid: true, reason: "Valid subscription", userId: user.id, requestsToday, limit, subscription: plan };
+  } catch (err) {
+    console.error("❌ Error checking subscription:", err);
+    return { valid: false, reason: "Database error", userId: null, requestsToday: 0, limit: 0 };
   }
 }
 
-/**
- * Create a new request record
- */
+// ==========================
+// CREATE REQUEST RECORD
+// ==========================
 async function createRequest(userId) {
   try {
-    const request = await prisma.request.create({
-      data: {
-        userId: userId, // Required
-        // date will be auto-set by Prisma, no need to pass it unless you want a custom date
-      },
-      include: {
-        user: true, // Optional: include user info in the response
-      },
-    });
-
-    console.log("✅ Request created:", request);
-    return request;
-  } catch (error) {
-    console.error("❌ Error creating request:", error);
-    throw error;
+    const req = await prisma.request.create({ data: { userId } });
+    console.log("✅ Request created:", req);
+    return req;
+  } catch (err) {
+    console.error("❌ Error creating request:", err);
   }
 }
 
-// Create bot with local session storage
+// ==========================
+// WHATSAPP BOT CONFIG
+// ==========================
 const client = new Client({
-  authStrategy: new LocalAuth(),
-  puppeteer: { headless: true },
+  authStrategy: new LocalAuth({ dataPath: "./" }),
+  puppeteer: {
+    headless: true,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-accelerated-2d-canvas",
+      "--no-zygote",
+      "--single-process",
+      "--disable-gpu",
+    ],
+  },
 });
 
-// Show QR code for login
 client.on("qr", (qr) => {
   qrcode.generate(qr, { small: true });
   console.log("📱 Scan this QR with WhatsApp");
 });
 
-async function sendRenewalReminders() {
-  try {
-    const now = new Date();
-
-    const subscriptions = await prisma.subscription.findMany({
-      where: {
-        expiresAt: { gt: now },
-      },
-      include: { user: true },
-    });
-
-    for (const sub of subscriptions) {
-      const daysLeft = Math.ceil((sub.expiresAt - now) / (1000 * 60 * 60 * 24));
-
-      let shouldSend = false;
-      let fieldToUpdate = null;
-
-      if (daysLeft === 7 && !sub.reminderDay7Send) {
-        shouldSend = true;
-        fieldToUpdate = "reminderDay7Send";
-      } else if (daysLeft === 4 && !sub.reminderDay4Send) {
-        shouldSend = true;
-        fieldToUpdate = "reminderDay4Send";
-      } else if (daysLeft === 1 && !sub.reminderDay1Send) {
-        shouldSend = true;
-        fieldToUpdate = "reminderDay1Send";
-      }
-
-      if (shouldSend) {
-        try {
-          await client.sendMessage(`${sub.user.wId}@c.us`, RENEWAL_MESSAGE);
-          console.log(
-            `📩 Sent renewal reminder to ${sub.user.wId} (${daysLeft} days left)`
-          );
-
-          // Update the subscription to mark reminder as sent
-          await prisma.subscription.update({
-            where: { id: sub.id },
-            data: { [fieldToUpdate]: true },
-          });
-        } catch (error) {
-          console.error(
-            `❌ Failed to send reminder to ${sub.user.wId}:`,
-            error
-          );
-        }
-      }
-    }
-  } catch (error) {
-    console.error("❌ Error in sending renewal reminders:", error);
-  }
-}
-
-// Bot is ready
 client.on("ready", async () => {
   console.log("✅ WhatsApp Bot is ready!");
-  // Initialize global browser when bot is ready
-  // await initGlobalBrowser();
+  const info = await client.info;
+  console.log("🤖 Bot Info:", info);
+  console.log("📞 Bot WhatsApp ID:", info.wid._serialized);
+  console.log("📱 Bot phone number:", info.wid.user);
 
-  await sendRenewalReminders();
-
-  setInterval(sendRenewalReminders, 12 * 60 * 60 * 1000); // Every 24 hours
+  await initGlobalBrowser();
 });
 
-// Handle group messages
+// ==========================
+// MESSAGE HANDLER
+// ==========================
 client.on("message", async (msg) => {
   console.log("📩 New message received:", msg.body);
+  if (!msg.from.endsWith("@g.us")) return;
 
-  if (!msg.from.endsWith("@g.us")) {
-    console.log("Not from a group, ignoring...");
-    return;
+  const STORED_ID = "84868620914800";
+  const botNumber = client.info.wid.user;
+  const mentionedIds = msg.mentionedIds.map((id) => id.split("@")[0]);
+  const body = msg.body?.toLowerCase() || "";
+  const isBotMentioned =
+    mentionedIds.includes(botNumber) ||
+    mentionedIds.includes(STORED_ID) ||
+    body.includes(botNumber) ||
+    body.includes(STORED_ID);
+
+  if (!isBotMentioned) return;
+
+  const randomDelay = () => new Promise((r) => setTimeout(r, 2000 + Math.random() * 1000));
+  await randomDelay();
+  await msg.react("👍");
+
+  const senderContact = await msg.getContact();
+  const urlMatch = msg.body.match(/https?:\/\/[^\s]+/);
+  if (!urlMatch)
+    return await msg.reply(
+      `@${senderContact.number}! Please mention me with a valid link.`,
+      msg.from,
+      { mentions: [senderContact] }
+    );
+
+  const link = urlMatch[0];
+  const sub = await checkSubscription(senderContact.number);
+  if (!sub.valid) {
+    let msgText = `@${senderContact.number}! `;
+    switch (sub.reason) {
+      case "User not found": msgText += NOT_REGISTERED_MESSAGE; break;
+      case "No active subscription": msgText += "You don't have an active subscription."; break;
+      case "Daily limit exceeded": msgText += `Limit ${sub.limit} reached (${sub.requestsToday} used).`; break;
+      case "Subscription expired": msgText += "Your subscription expired."; break;
+      default: msgText += "Subscription check failed."; break;
+    }
+    return await msg.reply(msgText, msg.from, { mentions: [senderContact] });
   }
 
-  const botId = "84868620914800";
-  const mentioned = msg.mentionedIds.map((id) => id.replace(/@.+$/, ""));
-
-  if (mentioned.includes(botId)) {
-    console.log("✅ Bot was mentioned!");
-
-    // Utility function for random delay between 2–3 seconds
-    const randomDelay = () =>
-      new Promise((resolve) =>
-        setTimeout(resolve, 2000 + Math.random() * 1000)
-      );
-
-    try {
-      // Wait before reacting
-      await randomDelay();
-      await msg.react("👍");
-    } catch (error) {
-      console.error("❌ Error reacting to message:", error);
-    }
-
-    const senderId = msg.author;
-    const senderContact = await msg.getContact();
-
-    const urlMatch = msg.body.match(/https?:\/\/[^\s]+/);
-    if (!urlMatch) {
-      await randomDelay();
-      await msg.reply(
-        `@${senderContact.number}! Please mention me with a valid link.`,
-        msg.from,
-        { mentions: [senderContact] }
-      );
-      return;
-    }
-
-    const link = urlMatch[0];
-    console.log("🔗 Link received:", link);
-
-    const subscription = await checkSubscription(senderContact.number);
-    console.log(subscription);
-
-    if (!subscription.valid) {
-      let errorMessage = `@${senderContact.number}! `;
-
-      switch (subscription.reason) {
-        case "User not found":
-          errorMessage += NOT_REGISTERED_MESSAGE;
-          break;
-        case "No active subscription":
-          errorMessage +=
-            "You don't have an active subscription. Please contact the admin.";
-          break;
-        case "Daily limit exceeded":
-          errorMessage += `You have exceeded your daily limit of ${subscription.limit} requests. You've used ${subscription.requestsToday} requests today.`;
-          break;
-        case "Subscription expired":
-          errorMessage += `Your subscription expired. Please contact the admin.`;
-          break;
-        default:
-          errorMessage +=
-            "Subscription validation failed. Please contact the admin.";
-      }
-
-      await randomDelay();
-      await msg.reply(errorMessage, msg.from, {
-        mentions: [senderContact],
-      });
-      return;
-    }
-
-    try {
-      // Add random delay before fetching download URL
-      await randomDelay();
-      const downloadUrl = await getUrl(link);
-
-      if (downloadUrl) {
-        const request = await createRequest(subscription.userId);
-
-        // Random delay before sending message
-        await randomDelay();
-        await client.sendMessage(
-          msg.from,
-          `✅ Hey @${
-            senderContact.number
-          }, I got your download link:\n${downloadUrl}\n\n📊 Usage: ${
-            subscription.requestsToday + 1
-          }/${
-            subscription.limit === 0 ? "∞" : subscription.limit
-          } requests today`,
-          { mentions: [senderContact] }
-        );
-      } else {
-        await randomDelay();
-        await client.sendMessage(
-          msg.from,
-          `Hey @${senderContact.number}, something went wrong. Please inform the admin.`,
-          { mentions: [senderContact] }
-        );
-      }
-    } catch (error) {
-      console.error("❌ Error processing request:", error);
-      const failedRequest = await createRequest(
-        subscription.userId,
-        link,
-        "failed"
-      );
-
-      await randomDelay();
+  try {
+    await randomDelay();
+    const downloadUrl = await getUrl(link);
+    if (downloadUrl) {
+      await createRequest(sub.userId);
       await client.sendMessage(
         msg.from,
-        `❌ Sorry @${senderContact.number}, I couldn't process your link. Please try again later.`,
+        `✅ Hey @${senderContact.number}, here’s your link:\n${downloadUrl}\n\n📊 Usage: ${
+          sub.requestsToday + 1
+        }/${sub.limit || "∞"} today`,
+        { mentions: [senderContact] }
+      );
+    } else {
+      await msg.reply(
+        `⚠️ @${senderContact.number}, couldn't fetch the download link. Please try again.`,
+        msg.from,
         { mentions: [senderContact] }
       );
     }
-  } else {
-    console.log("Bot not mentioned, ignoring...");
+  } catch (err) {
+    console.error("❌ Error processing request:", err);
+    await createRequest(sub.userId);
+    await msg.reply(
+      `❌ Sorry @${senderContact.number}, I couldn't process your link.`,
+      msg.from,
+      { mentions: [senderContact] }
+    );
   }
 });
 
-// Graceful shutdown handling
+// ==========================
+// GRACEFUL SHUTDOWN
+// ==========================
 process.on("SIGINT", async () => {
   console.log("🔄 Shutting down gracefully...");
-
-  if (globalBrowser) {
-    await globalBrowser.close();
-    console.log("✅ Browser closed");
-  }
-
-  if (client) {
-    await client.destroy();
-    console.log("✅ WhatsApp client destroyed");
-  }
-
+  if (globalBrowser) await globalBrowser.close();
+  if (client) await client.destroy();
   process.exit(0);
 });
 
-// Express routes
-app.get("/home", (req, res) => {
-  res.send("Hello! Express server is working 🚀");
-});
-
-app.post("/api/login", (req, res) => {
-  const { password } = req.body;
-  if (password === ADMIN_PASS) {
-    return res.sendStatus(200);
-  }
-  res.sendStatus(401);
-});
-
-// Browser status endpoint
+// ==========================
+// EXPRESS ROUTES
+// ==========================
+app.get("/home", (req, res) => res.send("Hello! Express server is working 🚀"));
 app.get("/api/browser-status", async (req, res) => {
   try {
     await ensureBrowserHealth();
     res.json({
       status: "healthy",
-      browserConnected: globalBrowser ? globalBrowser.isConnected() : false,
-      pageReady: globalPage ? true : false,
+      browserConnected: !!globalBrowser?.isConnected(),
+      pageReady: !!globalPage,
     });
-  } catch (error) {
-    res.status(500).json({
-      status: "error",
-      message: error.message,
-    });
+  } catch (err) {
+    res.status(500).json({ status: "error", message: err.message });
   }
 });
 
-const randomDelay = () =>
-  new Promise((resolve) => setTimeout(resolve, 2000 + Math.random() * 1000));
+app.post("/api/login", (req, res) => {
+  const { password } = req.body;
+  res.sendStatus(password === ADMIN_PASS ? 200 : 401);
+});
 
 app.use("/users", userRoutes);
 
-// Start express server
-app.listen(PORT, () => {
-  console.log(`🚀 Express server running at http://localhost:${PORT}`);
-});
-
-// Initialize WhatsApp client
+// ==========================
+// START SERVER
+// ==========================
+app.listen(PORT, () => console.log(`🚀 Express server running at http://localhost:${PORT}`));
 client.initialize();

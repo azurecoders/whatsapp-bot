@@ -21,7 +21,7 @@
       .navbar {
         background: white;
         border-bottom: 1px solid #e2e8f0;
-        padding: 28px 48px;
+        padding: 16px 32px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -29,7 +29,7 @@
       }
 
       .navbar h1 {
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 700;
         color: #0f172a;
       }
@@ -37,18 +37,18 @@
       .navbar .user-menu {
         display: flex;
         align-items: center;
-        gap: 20px;
-        font-size: 20px;
+        gap: 16px;
+        font-size: 14px;
         color: #64748b;
       }
 
       .navbar .user-menu button {
-        padding: 14px 28px;
+        padding: 8px 16px;
         border: 1px solid #e2e8f0;
-        border-radius: 10px;
+        border-radius: 8px;
         background: white;
         cursor: pointer;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 500;
         transition: all 0.2s ease;
       }
@@ -59,67 +59,68 @@
       }
 
       .container {
-        max-width: 1600px;
+        max-width: 1400px;
         margin: 0 auto;
-        padding: 48px;
+        padding: 32px;
       }
 
       .header {
-        margin-bottom: 48px;
+        margin-bottom: 32px;
       }
 
       .header h2 {
-        font-size: 52px;
+        font-size: 28px;
         font-weight: 700;
         color: #0f172a;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
       }
 
       .header p {
-        font-size: 22px;
+        font-size: 14px;
         color: #64748b;
       }
 
       .stats-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-        gap: 32px;
-        margin-bottom: 48px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+        margin-bottom: 32px;
       }
 
       .stat-card {
         background: white;
-        border-radius: 16px;
-        padding: 36px;
+        border-radius: 12px;
+        padding: 24px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
         border: 1px solid #e2e8f0;
         transition: all 0.2s ease;
       }
 
       .stat-card:hover {
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
       }
 
       .icon-container {
         display: flex;
         align-items: center;
-        gap: 24px;
-        margin-bottom: 8px;
+        gap: 16px;
+        margin-bottom: 4px;
       }
 
       .stat-card .icon {
-        width: 72px;
-        height: 72px;
-        border-radius: 14px;
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-shrink: 0;
       }
 
       .stat-card .icon svg {
-        width: 36px;
-        height: 36px;
+        width: 24px;
+        height: 24px;
       }
 
       .stat-card .icon.blue {
@@ -143,23 +144,23 @@
       }
 
       .stat-card h3 {
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 600;
         color: #64748b;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
         text-transform: uppercase;
         letter-spacing: 0.5px;
       }
 
       .stat-card .value {
-        font-size: 48px;
+        font-size: 28px;
         font-weight: 700;
         color: #0f172a;
-        margin-bottom: 8px;
+        margin-bottom: 4px;
       }
 
       .stat-card .change {
-        font-size: 18px;
+        font-size: 13px;
         color: #22c55e;
         display: flex;
         align-items: center;
@@ -171,32 +172,32 @@
       }
 
       .plans-section {
-        margin-bottom: 48px;
+        margin-bottom: 32px;
       }
 
       .section-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 32px;
+        margin-bottom: 24px;
       }
 
       .section-header h3 {
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 700;
         color: #0f172a;
       }
 
       .plans-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-        gap: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 24px;
       }
 
       .plan-card {
         background: white;
-        border-radius: 16px;
-        padding: 40px;
+        border-radius: 12px;
+        padding: 28px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
         border: 2px solid #e2e8f0;
         transition: all 0.2s ease;
@@ -206,56 +207,56 @@
 
       .plan-card:hover {
         border-color: #3b82f6;
-        box-shadow: 0 6px 16px rgba(59, 130, 246, 0.15);
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
       }
 
       .plan-card.popular {
         border-color: #3b82f6;
-        box-shadow: 0 6px 16px rgba(59, 130, 246, 0.15);
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
       }
 
       .plan-card .badge {
         position: absolute;
-        top: -16px;
-        right: 24px;
+        top: -12px;
+        right: 20px;
         background: #3b82f6;
         color: white;
-        padding: 8px 20px;
-        border-radius: 24px;
-        font-size: 16px;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 12px;
         font-weight: 600;
       }
 
       .plan-card h4 {
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
         color: #0f172a;
-        margin-bottom: 12px;
-      }
-
-      .plan-card .price {
-        font-size: 48px;
-        font-weight: 700;
-        color: #3b82f6;
         margin-bottom: 8px;
       }
 
+      .plan-card .price {
+        font-size: 32px;
+        font-weight: 700;
+        color: #3b82f6;
+        margin-bottom: 4px;
+      }
+
       .plan-card .price span {
-        font-size: 24px;
+        font-size: 16px;
         color: #64748b;
         font-weight: 400;
       }
 
       .plan-card .limit {
-        font-size: 20px;
+        font-size: 14px;
         color: #64748b;
-        margin-bottom: 24px;
+        margin-bottom: 20px;
       }
 
       .plan-stats {
         display: flex;
-        gap: 24px;
-        padding-top: 24px;
+        gap: 20px;
+        padding-top: 20px;
         border-top: 1px solid #e2e8f0;
       }
 
@@ -264,32 +265,32 @@
       }
 
       .plan-stat .label {
-        font-size: 16px;
+        font-size: 12px;
         color: #64748b;
-        margin-bottom: 8px;
+        margin-bottom: 6px;
       }
 
       .plan-stat .stat-value {
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
         color: #0f172a;
       }
 
       .actions-section {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
       }
 
       .action-card {
         background: white;
-        border-radius: 16px;
-        padding: 36px;
+        border-radius: 12px;
+        padding: 24px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
         border: 1px solid #e2e8f0;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 16px;
         transition: all 0.2s ease;
         cursor: pointer;
         text-decoration: none;
@@ -297,15 +298,15 @@
       }
 
       .action-card:hover {
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
         border-color: #3b82f6;
       }
 
       .action-card .action-icon {
-        width: 80px;
-        height: 80px;
-        border-radius: 16px;
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
         background: #eff6ff;
         color: #3b82f6;
         display: flex;
@@ -314,64 +315,142 @@
       }
 
       .action-card .action-icon svg {
-        width: 40px;
-        height: 40px;
+        width: 28px;
+        height: 28px;
       }
 
       .action-card h4 {
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 700;
         color: #0f172a;
       }
 
       .action-card p {
-        font-size: 18px;
+        font-size: 14px;
         color: #64748b;
-        line-height: 1.6;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 1024px) {
+        .stats-grid {
+          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+
+        .plans-grid {
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
       }
 
       @media (max-width: 768px) {
         .container {
-          padding: 24px;
+          padding: 20px;
         }
 
         .navbar {
-          padding: 20px 24px;
+          padding: 12px 20px;
         }
 
         .navbar h1 {
-          font-size: 24px;
+          font-size: 18px;
         }
 
         .navbar .user-menu {
-          font-size: 16px;
+          font-size: 13px;
+          gap: 12px;
         }
 
         .navbar .user-menu button {
-          padding: 10px 20px;
-          font-size: 14px;
+          padding: 6px 12px;
+          font-size: 13px;
         }
 
         .header h2 {
-          font-size: 36px;
+          font-size: 24px;
         }
 
         .header p {
-          font-size: 18px;
+          font-size: 13px;
         }
 
         .stats-grid,
         .plans-grid,
         .actions-section {
           grid-template-columns: 1fr;
+          gap: 16px;
+        }
+
+        .stat-card {
+          padding: 20px;
         }
 
         .stat-card .value {
-          font-size: 36px;
+          font-size: 24px;
+        }
+
+        .plan-card {
+          padding: 24px;
         }
 
         .plan-card .price {
-          font-size: 36px;
+          font-size: 28px;
+        }
+
+        .plan-stat .stat-value {
+          font-size: 18px;
+        }
+
+        .section-header h3 {
+          font-size: 18px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          padding: 16px;
+        }
+
+        .navbar {
+          padding: 10px 16px;
+        }
+
+        .navbar h1 {
+          font-size: 16px;
+        }
+
+        .header h2 {
+          font-size: 20px;
+        }
+
+        .stat-card .icon {
+          width: 40px;
+          height: 40px;
+        }
+
+        .stat-card .icon svg {
+          width: 20px;
+          height: 20px;
+        }
+
+        .icon-container {
+          gap: 12px;
+        }
+
+        .stat-card h3 {
+          font-size: 11px;
+        }
+
+        .stat-card .value {
+          font-size: 22px;
+        }
+
+        .action-card .action-icon {
+          width: 48px;
+          height: 48px;
+        }
+
+        .action-card .action-icon svg {
+          width: 24px;
+          height: 24px;
         }
       }
     </style>

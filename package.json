@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+       "start": "node index.js",
+    "render-build": "npm install"
   },
   "keywords": [],
   "author": "",
