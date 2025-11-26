@@ -1,0 +1,400 @@
+{"message":"📱 Initializing WhatsApp client...\n\n","timestamp":"2025-11-26 16:05:23 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"📱 Initializing WhatsApp client...\n\n","timestamp":"2025-11-26 16:05:23 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🚀 EXPRESS SERVER STARTED\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"📍 URL: http://localhost:3000\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📁 Downloads: https://d6elp5bdgrgthejqpor3ihwnsu.srv.us/download/\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🚀 EXPRESS SERVER STARTED\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"⏰ File expiry: 1 minutes\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📍 URL: http://localhost:3000\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"🔗 PROXY CONFIGURATION:\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📁 Downloads: https://d6elp5bdgrgthejqpor3ihwnsu.srv.us/download/\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"   Original: freepik.com\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏰ File expiry: 1 minutes\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"   Proxy: freepik.pakseotools.com\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔗 PROXY CONFIGURATION:\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Original: freepik.com\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"⏱️ TIMEOUT SETTINGS:\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Proxy: freepik.pakseotools.com\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"   Navigation: 120s\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"   Download Button: 60s\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏱️ TIMEOUT SETTINGS:\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"   Download Complete: 180s\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Navigation: 120s\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Download Button: 60s\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"   Download Complete: 180s\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n\n","timestamp":"2025-11-26 16:05:26 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"⏳ Loading: 0% - WhatsApp\n","timestamp":"2025-11-26 16:05:47 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n✅ Authentication successful!\n","timestamp":"2025-11-26 16:05:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔐 Session saved. You won't need to scan QR again.\n\n","timestamp":"2025-11-26 16:05:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"✅ WhatsApp Bot is ready!\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🤖 BOT IDENTIFICATION INFO:\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📞 Phone Number (wid.user): 923331950415\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🆔 Full ID (_serialized): 923331950415@c.us\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n⚠️  USE THIS AS YOUR STORED_ID: 923331950415\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔗 PROXY CONFIGURATION:\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Original Domain: freepik.com\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Proxy Domain: freepik.pakseotools.com\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Proxy Base URL: https://freepik.pakseotools.com\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🌐 Initializing download browser...\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔄 Initializing global browser...\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: 🚀 Future Leaders Program - Day 2 Progress at New Al-Hijra School \n\nOur students took a major leap today, building real-world website layouts and stepping into the world of AI.\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏳ Loading: 29% - WhatsApp\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: ھ\n\n\nکیا سودا کینسل ہونے پر بیچنے والا (Seller) آپ کا پورا بیعانہ ضبط کر سکتا ہے؟\n\n\nقانونی حقیقت:\nقانونِ معاہدہ (Contract Act) کے تحت، اگر خریدار سودا پورا کرنے میں ناکام رہے، تو بیچنے والا صرف اتنا پیسہ کاٹ سکتا ہے جتنا اسے \"اصل نقصان\" (Actual Loss) ہوا ہو۔\n\n1. پورا بیعانہ ضبط کرنا: اگر بیعانہ پراپرٹی کی قیمت کا 10% یا اس سے زیادہ ہے، تو اسے مکمل ضبط کرنا غیر قانونی سمجھا جاتا ہے۔\n\n2. عدالتی رویہ: عدالتیں اکثر حکم دیتی ہیں کہ بیچنے والا اپنے اخراجات کاٹ کر باقی رقم خریدار کو واپس کرے۔\n\nسبق:\n\n\"بیعانہ ضبط کرنا حق ہے، لیکن لوٹ مار کرنا قانون میں منع ہے۔\"\n\n📢 آگاہی شیئر کریں👇\n👉 https://whatsapp.com/channel/0029Vabf8odJ3jv0E6pOg63P\n\n#KarachiConstruction.pk\n#TokenMoneyRules\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \"السلام علیکم 🌸\nاپنا بہت خیال رکھیں، کیونکہ دنیا کے لیے آپ بس ایک شخص ہیں،\nلیکن اپنی فیملی کے لیے آپ پوری دنیا ہیں۔\nاللہ پاک آپ کو ہمیشہ سلامت رکھے اور اپنی حفاظت میں رکھے۔ آمین ثم آمین یا رب العالمین\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🌐 Opening PakSeoTools proxy: https://freepik.pakseotools.com\n","timestamp":"2025-11-26 16:05:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: :)\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏳ Loading: 39% - WhatsApp\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: Today, on 26 November 2025, a Parent–Teacher Meeting was held at Rawalpindi Polytechnic Institute, located in Airport Housing Society, Islamabad. All teachers actively participated and met with the parents of the students. During the meeting, teachers shared their experiences and observations regarding the students’ academic progress, behavior, and overall development. They discussed the areas where students are facing challenges and suggested practical ways to help improve their skills, study habits, and personal growth. Parents were encouraged to actively support their children’s learning at home and were assured that Rawalpindi Polytechnic Institute is committed to providing high-quality education, continuous guidance, and the best possible learning environment for all students. The meeting concluded on a positive note, with mutual understanding between teachers and parents to work together for the students’ success.”\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: Today, on 26 November 2025, a Parent–Teacher Meeting was held at Rawalpindi Polytechnic Institute, . All teachers actively participated and met with the parents of the students. During the meeting, teachers shared their experiences and observations regarding the students’ academic progress, behavior, and overall development. They discussed the areas where students are facing challenges and suggested practical ways to help improve their skills, study habits, and personal growth. Parents were encouraged to actively support their children’s learning at home and were assured that Rawalpindi Polytechnic Institute is committed to providing high-quality education, continuous guidance, and the best possible learning environment for all students. The meeting concluded on a positive note, with mutual understanding between teachers and parents to work together for the students’ success.”\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: https://chat.whatsapp.com/Df3YQIbDIjrJZHluxEaS3t\n*اپنے روزمرہ کے معاملات کو دین اسلام کے مطابق چلائیں دعائیں سکھیں اور اخلاقیات کو سمجھیں جلدی جلدی جوائن کریں آج رات کو دینی اور اخلاقی کورس شروع ہو رہا ہے جزاک اللہ خیراً*\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: Game On he\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: DM for order now\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: ام زین العابدین گھر پر شیمپو تیار کرتی ہیں چار اقسام کے ان کے رٹیل ریٹ 1800 سے 2500 تک ہیں لیکن اگر ریفر کوڈ Annshah کے تحت کوئ آرڈر کرتا ہے تو 1250 روپے کلو فری ہوم ڈلیوری کے ساتھ آج شیمپو مل جائے گا مزید اگر کوئ 5 کلو تک لیتا ہے اپنا کام شروع کرنے کیلئے تو 5 کلو لینے پر 1 کلو فری دیا جائے گا\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: Zindagi\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏳ Loading: 95% - WhatsApp\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏳ Loading: 99% - WhatsApp\n","timestamp":"2025-11-26 16:05:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔐 Login required, performing login...\n","timestamp":"2025-11-26 16:05:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📍 Current URL: https://app.pakseotools.com/login\n","timestamp":"2025-11-26 16:05:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📝 Filling login form...\n","timestamp":"2025-11-26 16:05:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔄 Submitting login form...\n","timestamp":"2025-11-26 16:05:58 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📍 After login URL: https://app.pakseotools.com/page/Extensions\n","timestamp":"2025-11-26 16:06:03 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"✅ Login successful!\n","timestamp":"2025-11-26 16:06:03 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔄 Navigating back to proxy: https://freepik.pakseotools.com\n","timestamp":"2025-11-26 16:06:03 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"✅ Global browser initialized successfully\n","timestamp":"2025-11-26 16:06:23 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📁 Downloads directory: E:\\coding\\whatsapp bot\\backend\\src\\downloads\n","timestamp":"2025-11-26 16:06:23 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔗 Using proxy: freepik.pakseotools.com\n","timestamp":"2025-11-26 16:06:23 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔐 Login status: Logged in\n","timestamp":"2025-11-26 16:06:23 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: @923331950415 https://www.freepik.com/premium-ai-image/3d-supercar-design-futuristic-concept_62501049.htm#fromView=search&page=1&position=7&uuid=1989a43a-d199-40ab-b02f-803b3eaca010&query=ferrari\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔍 DEBUG INFO:\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Bot Number: 923331950415\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Bot LID: N/A\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Bot Alternate IDs: []\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   📱 Sender WhatsApp ID: 84868620914800\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Mentioned IDs (raw): [\"923331950415@c.us\"]\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Mentioned IDs (original): [ '923331950415' ]\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Mentioned IDs (cleaned): [ '923331950415' ]\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Body @ Mentions: [ '923331950415' ]\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Is Admin: true\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Is Bot Mentioned: true\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"==================================================\n\n","timestamp":"2025-11-26 16:06:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"👑 Admin detected, checking for commands...\n","timestamp":"2025-11-26 16:06:57 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"Parsed Command: null\n","timestamp":"2025-11-26 16:06:57 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔍 Checking subscription for: 84868620914800\n","timestamp":"2025-11-26 16:06:57 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📊 Subscription result: {\n  valid: true,\n  reason: 'Valid subscription',\n  userId: '6925c3a39ddc7b365b5fc9b5',\n  requestsToday: 13,\n  limit: 30,\n  subscription: 'PREMIUM'\n}\n","timestamp":"2025-11-26 16:07:01 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔍 Checking browser health...\n","timestamp":"2025-11-26 16:07:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"✅ Browser is healthy (Logged in: true)\n","timestamp":"2025-11-26 16:07:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔄 URL Transformed:\n","timestamp":"2025-11-26 16:07:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Original: https://www.freepik.com/premium-ai-image/3d-supercar-design-futuristic-concept_62501049.htm#fromView=search&page=1&position=7&uuid=1989a43a-d199-40ab-b02f-803b3eaca010&query=ferrari\n","timestamp":"2025-11-26 16:07:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"   Proxy:    https://freepik.pakseotools.com/premium-ai-image/3d-supercar-design-futuristic-concept_62501049.htm#fromView=search&page=1&position=7&uuid=1989a43a-d199-40ab-b02f-803b3eaca010&query=ferrari\n","timestamp":"2025-11-26 16:07:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔄 Navigating to: https://freepik.pakseotools.com/premium-ai-image/3d-supercar-design-futuristic-concept_62501049.htm#fromView=search&page=1&position=7&uuid=1989a43a-d199-40ab-b02f-803b3eaca010&query=ferrari\n","timestamp":"2025-11-26 16:07:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏱️ Using timeout: 120 seconds\n","timestamp":"2025-11-26 16:07:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏳ Waiting 5s for page to stabilize...\n","timestamp":"2025-11-26 16:07:24 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"✅ Navigation successful\n","timestamp":"2025-11-26 16:07:29 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"⏳ Waiting for page content to load...\n","timestamp":"2025-11-26 16:07:29 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔍 Looking for download button...\n","timestamp":"2025-11-26 16:07:32 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🔍 Trying general button search...\n","timestamp":"2025-11-26 16:08:17 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📸 Debug screenshot saved\n","timestamp":"2025-11-26 16:08:17 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📍 Current page URL: https://freepik.pakseotools.com/premium-ai-image/3d-supercar-design-futuristic-concept_62501049.htm#fromView=search&page=1&position=7&uuid=1989a43a-d199-40ab-b02f-803b3eaca010&query=ferrari\n","timestamp":"2025-11-26 16:08:17 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📄 Page title: 3d supercar design and futuristic concept | Premium AI-generated image\n","timestamp":"2025-11-26 16:08:17 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🧹 Running periodic cleanup...\n","timestamp":"2025-11-26 16:10:23 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"🧹 Running periodic cleanup...\n","timestamp":"2025-11-26 16:10:23 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:29 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:29 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:29 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:30 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:30 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:30 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:30 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:30 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:30 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:31 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:31 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:31 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:32 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:32 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:32 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:32 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:32 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:32 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:33 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:33 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:33 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:33 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:33 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:33 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:34 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:35 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:35 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:35 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:36 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:36 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:36 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:36 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:36 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:36 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:37 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:37 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:37 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:37 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:37 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:37 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:38 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:38 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:38 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:38 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:38 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:38 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:39 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:39 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:39 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:40 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:41 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:41 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:41 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:42 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:42 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:42 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:42 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:42 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:42 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:43 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:43 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:43 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:43 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:43 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:43 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:44 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:44 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:44 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:44 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:44 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:44 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:45 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:45 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:45 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:45 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:45 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:45 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:46 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:46 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:46 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:46 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:46 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:46 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:47 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:47 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:47 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:48 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:49 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:50 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:51 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:52 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:53 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:53 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:53 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:53 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:53 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:53 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:54 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:55 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:55 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:55 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:55 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:55 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:55 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:56 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:56 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:56 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:56 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:56 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:56 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:57 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:57 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:57 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:58 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:58 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:58 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:59 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:59 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:59 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:13:59 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:13:59 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:13:59 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:00 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:00 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:00 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:01 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:01 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:01 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:01 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:01 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:01 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:02 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:02 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:02 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:03 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:03 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:03 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:04 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:06 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:06 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:06 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:07 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:07 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:07 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:07 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:07 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:07 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:08 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:08 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:08 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:09 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:09 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:09 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:10 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:10 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:10 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:10 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:10 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:10 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:12 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:12 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:12 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:13 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:13 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:13 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"\n==================================================\n","timestamp":"2025-11-26 16:14:14 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"📩 New message received: \n","timestamp":"2025-11-26 16:14:14 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"❌ Not a group message, ignoring\n","timestamp":"2025-11-26 16:14:14 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}
+{"message":"🧹 Running periodic cleanup...\n","timestamp":"2025-11-26 16:15:23 +05:00","type":"out","process_id":0,"app_name":"whatsapp-bot"}
+{"message":"🧹 Running periodic cleanup...\n","timestamp":"2025-11-26 16:15:23 +05:00","type":"out","process_id":1,"app_name":"whatsapp-bot"}

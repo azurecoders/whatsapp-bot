@@ -194,7 +194,7 @@ export async function initGlobalBrowser() {
     }
 
     globalBrowser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
