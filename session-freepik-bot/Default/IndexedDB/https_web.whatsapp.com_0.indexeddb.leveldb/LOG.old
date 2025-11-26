@@ -1,0 +1,23 @@
+2025/11/26-12:42:44.856 41c0 Reusing MANIFEST E:\coding\whatsapp bot\backend\session-freepik-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/26-12:42:44.857 41c0 Recovering log #677
+2025/11/26-12:42:45.050 41c0 Reusing old log E:\coding\whatsapp bot\backend\session-freepik-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000677.log 
+2025/11/26-12:42:54.532 2928 Manual compaction at level-0 from '\x00j\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00k\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/26-12:43:05.816 f7c Level-0 table #687: started
+2025/11/26-12:43:05.999 f7c Level-0 table #687: 1334452 bytes OK
+2025/11/26-12:43:06.015 f7c Delete type=0 #677
+2025/11/26-12:43:06.117 2eb8 Compacting 1@1 + 6@2 files
+2025/11/26-12:43:06.644 2eb8 Generated table #688@1: 84704 keys, 2232980 bytes
+2025/11/26-12:43:07.053 2eb8 Generated table #689@1: 71946 keys, 2292011 bytes
+2025/11/26-12:43:07.251 2eb8 Generated table #690@1: 18509 keys, 2163094 bytes
+2025/11/26-12:43:07.476 2eb8 Generated table #691@1: 12045 keys, 2180034 bytes
+2025/11/26-12:43:07.742 2eb8 Generated table #692@1: 34789 keys, 2171020 bytes
+2025/11/26-12:43:08.197 2eb8 Generated table #693@1: 96295 keys, 2025109 bytes
+2025/11/26-12:43:08.197 2eb8 Compacted 1@1 + 6@2 files => 13064248 bytes
+2025/11/26-12:43:08.208 2eb8 compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/11/26-12:43:08.209 2eb8 Delete type=2 #679
+2025/11/26-12:43:08.209 2eb8 Delete type=2 #680
+2025/11/26-12:43:08.209 2eb8 Delete type=2 #681
+2025/11/26-12:43:08.209 2eb8 Delete type=2 #682
+2025/11/26-12:43:08.209 2eb8 Delete type=2 #683
+2025/11/26-12:43:08.209 2eb8 Delete type=2 #684
+2025/11/26-12:43:08.209 2eb8 Delete type=2 #687
