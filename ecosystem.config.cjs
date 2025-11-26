@@ -30,7 +30,7 @@ module.exports = {
       // ========== ENVIRONMENT ==========
       env: {
         NODE_ENV: "production",
-        PORT: 3000,
+        PORT: 3020,
       },
 
       // ========== PM2 PLUS MONITORING ==========
